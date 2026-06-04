@@ -1450,7 +1450,7 @@ Before you build, any comment? Also, we never use render.com disk for persistent
 - Render/`FastAPI` (Stateless Processor)
 - GitHub/NDJSON ($State_t = \Sigma Event_i$)
 - Append-Only/`SlowAPI` (Projection by LLM from NDJSON into N-forks for next-token prediction & rehearsal)
-- Repeat ($y_pred - y_obs = \epsilon_FGT$ : Federated Ground Truth from journaling, PDF, image, Rx, etc uploads & updates) 
+- Repeat ($y_{pred} - y_{obs} = \epsilon_FGT$ : Federated Ground Truth from journaling, PDF, image, Rx, etc uploads & updates) 
   
 ---
 
