@@ -615,7 +615,7 @@ We are implementing **Step 2 & 3: The Reconciliation Logic**. We will build the 
 
 ## The Pentadic NSJSON Engine (FastAPI Implementation)
 
-This script implements the strict pentadic transition. It exposes the endpoint `/api/v1/pentad/reconcile`. When raw, fragmented, messy field data (NFHS surveys, state claims, or NITI Aayog grey data) arrives, it uses an embedded vector or structural matcher to anchor it to a ghosted speculative prediction, calculating $\gamma |\varepsilon_{FGT}|^2$.
+This script implements the strict pentadic transition. It exposes the endpoint `/api/v1/pentad/reconcile`. When raw, fragmented, messy field data (NFHS surveys, state claims, or NITI Aayog grey data) arrives, it uses an embedded vector or structural matcher to anchor it to a ghosted speculative prediction, calculating $\gamma \|\varepsilon_{FGT}\|^2$.
 
 ```python
 from datetime import datetime
