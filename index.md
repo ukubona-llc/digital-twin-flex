@@ -720,7 +720,7 @@ CREATE POLICY insert_pentad_ledger_policy
 
 ## Vector Optimization for the Loss Landscape
 
-To implement the query pattern: *“Show Phase IV predictions from last week that had highest $| \varepsilon_{FGT} |^2$,”* we use pgvector formatting to index the emotional/semantic surprise and mathematical error vectors.
+To implement the query pattern: *“Show Phase IV predictions from last week that had highest $\| \varepsilon_{FGT} \|^2$,”* we use pgvector formatting to index the emotional/semantic surprise and mathematical error vectors.
 
 ```sql
 -- Querying the living loss landscape for high surprise clusters
