@@ -389,8 +389,8 @@ It is not literature synthesis.
 It is what actually happened in the world after the prediction/decision/brief was emitted.
 
 ### Two Times — Decision vs Learning
-- **Decision time (ex-ante)**: Phase III (Agentic) — you act under uncertainty with f(σ², λ, ε). FGT is not yet available.
-- **Learning time (ex-post)**: Phase IV → V — reality delivers the outcome → |ε_FGT|² is computed → weights update → new θᵗ⁺¹.
+- **Decision time (ex-ante)**: Phase III (Agentic) — you act under uncertainty with `f(σ², λ, ε)`. FGT is not yet available.
+- **Learning time (ex-post)**: Phase IV → V — reality delivers the outcome → `|ε_FGT|²` is computed → weights update → new `θᵗ⁺¹`.
 
 Confusing these two times is the cardinal error in evidence-to-policy work. You cannot update weights before the ground truth signal arrives.
 
