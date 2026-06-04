@@ -377,7 +377,7 @@ Explore federated ground truth
 
 ---
 
-**Federated Ground Truth (FGT)** is the sacred scalar feedback signal in the pentadic system — specifically the **ex-post error term** that drives learning: **γ |ε_FGT|²**.
+**Federated Ground Truth (FGT)** is the sacred scalar feedback signal in the pentadic system — specifically the **ex-post error term** that drives learning: `γ |ε_FGT|²`.
 
 ### Definition in the Ukubona Pentad
 **ε_FGT = y_true − y_pred** (or the vectorized equivalent in multi-outcome settings).  
