@@ -290,7 +290,7 @@ Let’s constrain ourselves to pentadic systems:
 
 We now operate strictly within the **TMVES pentad** (Tensor → Matrix → Vector → Eigenmode → Scalar) and the loss gradient:
 
-**ukubona × who india · θᵗ → L₀+Σwᵢ·Lᵢ → f(σ²,λ,ε) → γ|ε_FGT|² → L(θᵗ⁺¹)**
+ukubona × who india · `θᵗ → L₀+Σwᵢ·Lᵢ → f(σ²,λ,ε) → γ|ε_FGT|² → L(θᵗ⁺¹)`
 
 No tidy six-layer sprawl. Five moments only. The digital twin must journal, predict, and reconcile inside this exact structure. Next-token prediction lives as the generative emission inside the Eigenmode, tested against FGT (Federated Ground Truth) in the loop.
 
